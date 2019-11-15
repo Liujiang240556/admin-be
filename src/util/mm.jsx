@@ -7,7 +7,7 @@ const conf = {
     // serverHost: 'http://admin.happymmall.com'
     // dev
     serverHost: '',
-    imageHost: ''
+    imageHost: 'http://l06.75.172.117:8162/img/'
 }
 
 class MMUtil{
