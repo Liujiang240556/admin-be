@@ -22,7 +22,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//106.75.172.117:8165/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//106.75.172.117:8162/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -92,6 +92,8 @@ var config = {
             }
         }),
     ],
+
+    //主要用在开发阶段调试用
     devServer: {
         port: 8086,
         proxy : {
