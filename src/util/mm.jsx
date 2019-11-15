@@ -6,7 +6,7 @@ const conf = {
     // online
     // serverHost: 'http://admin.happymmall.com'
     // dev
-    serverHost: 'http://l06.75.172.117:8160',
+    serverHost: '',
     imageHost: 'http://l06.75.172.117:8166/',
 }
 
