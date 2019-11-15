@@ -22,7 +22,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//localhost:8080/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//106.75.172.117:8165/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
