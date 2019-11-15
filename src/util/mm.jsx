@@ -6,8 +6,8 @@ const conf = {
     // online
     // serverHost: 'http://admin.happymmall.com'
     // dev
-    serverHost: '',
-    imageHost: 'http://localhost:8089/',
+    serverHost: 'http://l06.75.172.117:8160/',
+    imageHost: 'http://l06.75.172.117:8166/',
 }
 
 class MMUtil{
